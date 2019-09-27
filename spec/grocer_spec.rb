@@ -14,6 +14,7 @@ describe "Grocer" do
     ]
   end
 
+puts :items["SOY MILK"]
   let(:coupons) do
     [
       {:item => "AVOCADO", :num => 2, :cost => 5.00},
